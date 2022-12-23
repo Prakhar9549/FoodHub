@@ -1,0 +1,126 @@
+<!-- this id doctype -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id and classes </title>
+   <style>
+       body{
+        background-image: url('https://source.unsplash.com/collection/190727/1600x900');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+       }
+       .main{
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+        color: #e5c4b2;
+        /* border: 2px solid yellow; */
+        border-radius: 40px;
+        width: 400px;
+        height: 610px;
+        position: relative;
+        top: 20px;
+        left: 200px;
+        font-size: large;
+        display: grid;
+        justify-content: center;
+        /* padding-bottom: 10px; */
+        background:rgba(20,18,26,0.5)
+        
+}
+    
+h1{
+    text-align: center;
+}
+#button1{
+    margin-left: 80px;
+    background: none;
+    height: 40px;
+    width: 200px;
+    border: darkgoldenrod solid 2px;
+    color:  rgb(241, 167, 167);
+}
+.input{
+    position: relative;
+    left: 20px;
+    /* padding: 4px 8px; */
+    background: none;
+    /* border-radius: 8px; */
+    border: none;
+    border-bottom: red solid 1px;
+    width: 80%;
+    color: white;
+    outline: none;
+    background: none;
+
+}
+    .main1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-15%,10%);
+
+    }
+    #heading{
+        /* border-bottom: green solid 2px; */
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size:45px;
+        text-align:center;
+        margin-left:10px;
+        /* color:blanchedalmond; */
+	font-family:Bradley Hand;
+	border-bottom:3px solid #E52001;
+	margin-bottom:25px;
+    padding: 0px;
+    }
+    ::placeholder{
+        color: rgb(241, 167, 167);
+
+    }
+   </style>
+
+</head>
+<body>
+    
+    <div class="main1">
+
+        <div class="main">
+            <h2 id="heading">Create Account</h2>
+            <div>
+             
+                <input type="text" name="name" placeholder="Enter your Name" class="input">
+            </div>
+            <div>
+            
+                <input type="number" name="number" placeholder="Enter your Mobile number" class="input">
+            </div>
+            <div>
+            
+                <input type="text" name="email" placeholder="Enter your Email"  class="input">
+                
+            </div>
+            <div>
+            
+                <input type="password" name="password" placeholder="Enter your password" class="input">
+                
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox" >
+                By Creating an Account or Logging In, you Agree to Our's Terms and Conditions of use and Pivacy Policy
+            </div>
+            <div>
+                <a href="home.html">
+
+                    <input type="submit" value="Save" id="button1"/>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>

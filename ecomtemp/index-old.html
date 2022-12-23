@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>E-commerce</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/vendors/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/custom.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/media.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="assets/css/docs.theme.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+  <script src="assets/owlcarousel/owl.carousel.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <section class="ec_top_header">
+    <div class="ec__links">
+      <div class="col-lg-6 col-md-8">
+        <div class="welcome_msg">
+          <b>Welcome to Emarket !</b> Wrap new offers / gift every single day on Weekends – New Coupon code: Happy2017
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-8">
+        <div class="ec__signlink">
+          <ul>
+            <li><a href="#"><i class="fas fa-lock" id="ec__fa__sign_link"></i>Login & Signup</a></li>
+            <li><a href="#"><i class="fa fa-phone-square" id="ec__fa__contact_link"></i>Hotline (+91-8955890000)</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="ec__sr_wrap">
+      <div class="ec_logo">
+        <a href="#"><img src="assets/img/logo.png" alt="ec__logo"></a>
+      </div>
+
+      <div class="ec__search">
+        <span id="search">
+          <input type="search" name="search_icon" id="autocomplete" value
+            placeholder="Search for product, brands & more" class="ec__search_look">
+          <button type="submit" class="ec__searc_btn"><i class="fa fa-search" id="ec__fa_icon_search"></i></button>
+          <a href="#" class="search_action btn orange">Search</a>
+        </span>
+      </div>
+
+      <div class="ec__shlink_bootom">
+        <ul class="ec__shlink_bootom_icon">
+          <li><a href="#"><i class="fas fa-sync" id="ec__bootom_icon_styl"></i></a></li>
+          <li><a href="#"><i class="fas fa-heart" id="ec__bootom_icon_styl"></i></a></li>
+        </ul>
+
+        <span class="shop__cart">
+            <a href="#"><i class="fa fa-shopping-bag" id="ec__shop_icon_styl"></i></a>
+            <div class="shopcart_inner">
+                <p class="text_shopping_cart">
+                 My cart
+                </p>
+           
+                <span class="total_shopping_cart cart_total_full">
+                   <span class="items_cart">0</span><span class="items_cart2"> item(s)</span><span class="items_carts"> - $0.00 </span> 
+                </span>
+              </div>
+        </span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="ec__main_bootom_navbar">
+    <div class=ec__main_menu>
+      <div class="ec__main_menu_inner">
+        <ul class="ec__navbar">
+          <li><a href="#">Women</a>
+            <div class="ec__sub_menu">
+              <div class="ec_menu_column">
+                <ul class="ec__sub_content">
+                  <h5 id="link_gap">Ethic Wear</h5>
+                  <li><a href="#">sarres</a></li>
+                  <li><a href="#">Kurtas & Kurtis</a></li>
+                  <li><a href="#">Lehengas & Party Gowns</a></li>
+                  <li><a href="#">Dress Material</a></li>
+                  <li><a href="#">Ethnic Dresses</a></li>
+                  <li><a href="#">Leggings, Salwars & Churidars</a></li>
+                  <li><a href="#">Skirts & Palazzos</a></li>
+                  <li><a href="#">Sarees & Blouses</a></li>
+                  <h5 id="link_gap">Western Wear</h5>
+                  <li><a href="#">Tops & Tees</a></li>
+                  <li><a href="#">Kurtas & Kurtis</a></li>
+                  <li><a href="#">Dresses & Jumpsuits</a></li>
+                  <li><a href="#">T-Shirts</a></li>
+                  <li><a href="#">Jeans & Jeggings</a></li>
+                  <li><a href="#">Trousers & Capris</a></li>
+                  <li><a href="#">Shrugs</a></li>
+                  <li><a href="#">Jackets & Waistcoats</a></li>
+                </ul>
+              </div>
+              <div class="ec_menu_column">
+                <ul class="ec__sub_content">
+                  <h5 id="link_gap">Footwear</h5>
+                  <li><a href="#">Casual Shoes</a></li>
+                  <li><a href="#">Flats & Sandals</a></li>
+                  <li><a href="#">Heels</a></li>
+                  <li><a href="#">Boots</a></li>
+                  <li><a href="#">Sports Shoes & Floaters</a></li>
+                  <h5>Shoes Under 499</h5>
+                  <h5>New Arrival</h5>
+                  <h5 id="link_gap">Beauty & Personal Care</h5>
+                  <li><a href="#">Makeup</a></li>
+                  <li><a href="#">Skincare</a></li>
+                  <li><a href="#">Haircare</a></li>
+                  <li><a href="#">Bath & Spa</a></li>
+                  <li><a href="#">Deodorant & perfumes</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Mobile & Electronics</a></li>
+          <li><a href="#">Sports & More</a></li>
+          <li><a href="#">Home & Kitchen</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Exclusive Brands</a></li>
+          <li><a href="#">Offer Zone</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="ec__main_slider">
+    <div class="main_slider">
+      <div class="owl-carousel owl-theme slider_carousel">
+        <div class="item">
+          <a href="#">
+            <div class="slider_img" style="background-image:url(assets/img/ec__slider1.jpg)"></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <div class="slider_img" style="background-image:url(assets/img/ec__slider2.jpg)"></div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <div class="slider_img" style="background-image:url(assets/img/ec__slider3.jpg)"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="ec__promotion">
+    <div class="ec__promation_inner">
+      <div class=" col-lg-4">
+        <div class="ec__pro_info" id="banner_hover">
+          <a href="#"><img src="assets/img/ec_pro1.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class=" col-lg-4">
+        <div class="ec__pro_info" id="banner_hover">
+          <a href="#"><img src="assets/img/ec_pro2.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="ec__pro_info" id="banner_hover">
+          <a href="#"><img src="assets/img/ec_pro1.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trendig__products">
+    <div class="tr__inner">
+      <h4 class="tr__title">Trending Products</h4>
+      <div class="owl-carousel owl-theme trending__carousel">
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_1.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -20% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+
+                  <div class="price">
+
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                  <span class="label_product label_sale"> -20% </span>
+                </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_3.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                  <span class="label_product label_sale"> -20% </span>
+                </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_4.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -30% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_5.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                  <span class="label_product label_sale"> -20% </span>
+                </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_6.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                  <span class="label_product label_sale"> -20% </span>
+                </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -10% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ec__promotion">
+    <div class="ec__promation_inner">
+      <div class=" col-lg-4 ec__border">
+        <div class="ec__pro_info" id="banner_hover">
+          <a href="#"><img src="assets/img/ec_pro4.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class=" col-lg-4 ec__border" id="banner_hover">
+        <div class="ec__pro_info">
+          <a href="#"><img src="assets/img/ec_pro6.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class="col-lg-4 ec__border" id="banner_hover">
+        <div class="ec__pro_info">
+          <a href="#"><img src="assets/img/ec_pro4.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trendig__products">
+    <div class="tr__inner">
+      <h4 class="tr__title">Trending Products</h4>
+      <div class="owl-carousel owl-theme trending__carousel">
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_1.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -20% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+
+                  <div class="price">
+
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_3.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_4.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -30% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_5.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_6.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -10% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ec__banner">
+    <div class="ec__baaner_row">
+      <div class="col-lg-6">
+        <div class="ec__banner_inner" id="banner_hover">
+          <a href="#"><img src="assets/img/offer_1.jpg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="ec__banner_inner" id="banner_hover">
+          <a href="#"><img src="assets/img/offer_2.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trendig__products">
+    <div class="tr__inner">
+      <h4 class="tr__title">Top Camera Smartphone</h4>
+      <div class="owl-carousel owl-theme trending__carousel">
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/mobile_1.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Redmi Note 7 pro</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/mobile_3.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Redmi Notes 7s</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/samsung_mobile.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Samsung A50</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/mobile_4.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Samsung S10 Series</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/mobile_5.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Honor 9N</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/mobile_6.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Real Me</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ec_tr__col">
+            <div class="mobile__layout_grid">
+              <div class="mb_product__image">
+                <img src="assets/img/mobile_1.jpg" alt="">
+              </div>
+              <div class="mb__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Redmi Note 7 pro</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="mb_price_new">From ₹13,999 </span>&nbsp;&nbsp;
+                    <span class="mb_freaturices">48MP+5MP|13MP Camera </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="trendig__products">
+    <div class="tr__inner">
+      <h4 class="tr__title">Trending Products</h4>
+      <div class="owl-carousel owl-theme trending__carousel">
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_1.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -20% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+
+                  <div class="price">
+
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_3.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_4.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -30% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_5.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_6.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                    <span class="label_product label_sale"> -20% </span>
+                  </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -10% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ec__banner">
+    <div class="ec__baaner_row">
+      <div class="col-lg-12">
+        <div class="ec_lg__banner_inner" id="banner_hover">
+          <a href="#"><img src="assets/img/banner2.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trendig__products">
+    <div class="tr__inner">
+      <h4 class="tr__title">Trending Products</h4>
+      <div class="owl-carousel owl-theme trending__carousel">
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_1.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -20% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+
+                  <div class="price">
+
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                        <span class="label_product label_sale"> -20% </span>
+                      </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_3.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                        <span class="label_product label_sale"> -20% </span>
+                      </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_4.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -30% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_5.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                        <span class="label_product label_sale"> -20% </span>
+                      </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_6.jpg" alt="">
+                </div>
+              </a>
+              <!-- <div class="product__label">
+                        <span class="label_product label_sale"> -20% </span>
+                      </div> -->
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="tr__col">
+            <div class="product__layout_grid">
+              <a href="#">
+                <div class="product__image">
+                  <img src="assets/img/tr_2.jpg" alt="">
+                </div>
+              </a>
+              <div class="product__label">
+                <span class="label_product label_sale"> -10% </span>
+              </div>
+              <div class="ec__product__label">
+                <div class="box__label">
+                  <h4><a href="#">Ground round enim</a></h4>
+                </div>
+                <div class="caption">
+                  <div class="rating">
+                    <ul class="pr__rating">
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                      <li><i class="fas fa-star" id="ec_str_styl"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <span class="price_new">$80.00 </span>&nbsp;&nbsp;
+                    <span class="price_old">$100.00 </span>&nbsp;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="top__foot">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+      <div class="block_policy2">
+        <ul>
+          <li class="item_1">
+            <div class="item_inner">
+              <div class="icon icon1"></div>
+              <div class="content">
+                <a href="#">free delivery</a>
+                <p>From $59.89</p>
+              </div>
+            </div>
+          </li>
+          <li class="item_2">
+            <div class="item_inner">
+              <div class="icon icon2"></div>
+              <div class="content">
+                <a href="#">support 24/7</a>
+                <p>Online 24 hours</p>
+              </div>
+            </div>
+          </li>
+          <li class="item_3">
+            <div class="item_inner">
+              <div class="icon icon3"></div>
+              <div class="content">
+                <a href="#">free return</a>
+                <p>365 a day</p>
+              </div>
+            </div>
+          </li>
+          <li class="item_4">
+            <div class="item_inner">
+              <div class="icon icon4"></div>
+              <div class="content">
+                <a href="#">payment method</a>
+                <p>secure payment</p>
+              </div>
+            </div>
+          </li>
+          <li class="item_5">
+            <div class="item_inner">
+              <div class="icon icon5"></div>
+              <div class="content">
+                <a href="#">big saving</a>
+                <p>weekend sales</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="main__footer">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+      <div class="block__policy3">
+        <div class="getknow_link">
+          <p class="getknow__title">Get To Know Us </p>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Stories</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="policy__Link">
+          <p class="policy__Link_title">Customer Service</p>
+          <ul>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">T & c</a></li>
+            <li><a href="#">Track Orders</a></li>
+            <li><a href="#">Sell with us</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="experience__link">
+          <p class="experience__link__title">Experience Our Service on Mobile</p>
+          <div class="app__download">
+            <a href="#"><img src="assets/img/andriod.png" alt=""></a>
+            <a href="#"><img src="assets/img/ios.png" alt=""></a>
+          </div>
+
+          <div class="keep__touch">
+            <p class="keep__touch__link__title">Keep In Touch</p>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-square" id="keep__icon"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" id="keep__icon"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube" id="keep__icon"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram" id="keep__icon"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="keep__update">
+          <p class="keep_update__link__title">Keep Up To Date</p>
+          <form action="#">
+            <div class="keep__form">
+              <div class="col_lg_6 ">
+                <input type="email" class="keep__form_control" placeholder="Enter Email Id" required="">
+              </div>
+              <div class="col_lg_6 ">
+                <input type="submit" class="keep__form_submit" Value="Subscribe">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="block__policy_4">
+        <p class="popular__search_title">Popular Search</p>
+        <div class="popular__search">
+          <a href="#">Realme3 pro</a>
+          <a href="#">Nokia 5.1</a>
+          <a href="#">Honor view20</a>
+          <a href="#">Fitbit Inspire HR</a>
+          <a href="#">ICC Cricket World Cup T-shirts</a>
+          <a href="#">Microsoft Surface Go Pentium Gold 64GB</a>
+          <a href="#">Best Of Season Sale 2019</a>
+          <a href="#">Google Pixel 3A XL</a>
+          <a href="#">Modi Jacket</a>
+          <a href="#">Branded Laptops</a>
+          <a href="#">Mi Bluetooth Soundbar</a>
+          <a href="#">Mi 49 Inch Smart TV</a>
+          <a href="#">Photo Frames</a>
+          <a href="#">Designers Sarees</a>
+          <a href="#">Adidas Shoes</a>
+          <a href="#">Wedding Lehenga</a>
+          <a href="#">Headphones</a>
+          <a href="#">GoPro Action Camera</a>
+          <a href="#">Shoes Under 499</a>
+          <a href="#">iphone x</a>
+          <a href="#">Best College Laptop</a>
+          <a href="#">Punjabi Suits</a>
+          <a href="#">Top Camera Smartphone</a>
+          <a href="#">Gadgets under 1000</a>
+          <a href="#">JBL Home System</a>
+          <a href="#">Wedding Sress</a>
+          <a href="#">Air Purifiers</a>
+          <a href="#">Sandwich Makers</a>
+          <a href="#">Symphony Cooler</a>
+          <a href="#">Men's T-shirt Under 250</a>
+          <a href="#">Car Audio System</a>
+          <a href="#">Education Toys</a>
+          <a href="#">Kids Summer Clothes</a>
+          <a href="#">Wedding Lehenga</a>
+          <a href="#">Nikon DSLR Camera</a>
+          <a href="#">Top branded Shoes</a>
+          <a href="#">Wedding Dresses</a>
+          <a href="#">Asus Laptops</a>
+          <a href="#">Home Cleaner</a>
+          <a href="#">Makeup Kit</a>
+        </div>
+      </div>
+
+      <div class="block__policy__5">
+        <div class="block__inner">
+          <p class="office__adres">Registered Offical Address</p>
+          <div class="b__col">
+            <div class="ec__address">
+              <p>
+                5th Floor, A Block,
+                <br>
+                SKY Tech Park, 8th Km,
+                <br>
+                South East Delhi Industrial Area,
+                <br>
+                Delhi gate,
+                <br>
+                Delhi-201008
+              </p>
+            </div>
+          </div>
+
+          <div class="b__col">
+            <div class="contact__info">
+              <p class="cin">CIN: 73767845KY67890</p>
+              <p class="mobile_detail"> Telephone: <a href="#" id="b__telphone">+91-8955890000</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="f__bootom">
+    <div class="f__bootom_inner">
+      <div class="f__bootom_left">
+        <span>© 2019 E-kart.com</span>
+      </div>
+      <div class="f__bootom_right">
+        <img src="assets/img/trusted_icons.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+  <script src="unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

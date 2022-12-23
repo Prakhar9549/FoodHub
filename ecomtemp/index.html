@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  
+</head>
+
+<body>
+  <nav class="navbar-color">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="navbar-header">
+            <a class="navbar-brand sb_tgl" href="#"><div class="toggal_line"></div>
+            <div class="toggal_line"></div><div class="toggal_line"></div>
+            </a>
+            <a class="navbar-brand sb_logo" href="#"><img src="assets/img/image20.png" alt="emart" /></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form class="sb_search_bar" action="/action_page.php">
+            <div class="input-group sb_search">
+              <div class="input-group-btn search-panel">
+                  <button type="button" class="btn btn-default dropdown-toggle sb_search_drop search_drop_bg_color" data-toggle="dropdown">
+                    <span id="search_concept">All</span> <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#contains">Example 1</a></li>
+                    <li><a href="#its_equal">Example 2</a></li>
+                    <li><a href="#greather_than">Example 3</a></li>
+                    <li><a href="#less_than">Example 4</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#all">All</a></li>
+                  </ul>
+              </div>
+              <input type="hidden" name="search_param" value="all" id="search_param">         
+              <input type="text" class="form-control sb_search_drop" name="x" >
+              <span class="input-group-btn search_btn_bg">
+                  <button class="btn btn-default sb_search_drop search_btn_bg" type="button"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+          </div>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="dropdown sb_lang_dd">
+                <button class="dropbtn">
+                  <span class="icp-nav-flag icp-nav-flag-us"></span>
+                  <span ><i class="fa fa-caret-down align"></i></span>
+                </button>
+                <div class="dropdown-content">
+                  <p class="p_change_lng">Change Language</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="signin_block">
+              <div class="signup_account">
+                <span class="acc_txt_1">Hello, Sign in</span>
+                <span class="acc_txt_2">Account &amp; Lists<i class="fa fa-caret-down align"></i></span>
+                </span>
+              </div>
+              <div class="signup_content_card card">
+                <a class="signin_link" rel="nofollow">
+                <span class="sign_in_btn">Sign In</span></a>
+                <div class="new_cus_p">
+                New customer? <a>Start here.</a>
+                </div>
+                <div class="row signin_cln_padding">
+                  <div class="col-md-6">
+                    <div class="signin_clm_heading">Your Lists</div>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Create a List</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Find a List or Registry</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Find a Gift</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Save Items from the Web</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Wedding Registry</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Baby Registry</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Friends & Family Gifting</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">AmazonSmile Charity Lists</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Pantry Lists</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Hearts</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Explore Idea Lists</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Explore Showroom</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Take the Home Style Quiz</span></a>
+                    
+                  </div>
+                  <div class="col-md-6">
+                    <div class="signin_clm_heading">Your Account</div>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Account</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Orders</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Recommendations</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Subscribe & Save Items</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Memberships & Subscriptions</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Service Requests</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Garage</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Fanshop</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Pets</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Content and Devices</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Music Library</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Amazon Drive</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Prime Video</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Kindle Unlimited</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Watchlist</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Video Purchases & Rentals</span></a>
+                    <a href="#" class="signin_clm_link"><span class="link_signin_text">Your Android Apps & Devices</span></a>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="return_div">
+                <span class="acc_txt_1 ">Returns</span><br>
+                <span class="acc_txt_2 ">& Orders</span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="cart_icon_div">
+                
+                <div class="cart_icon"></div>
+                <span class="cart_txt_2">Cart</span>
+                <span id="nav-cart-count" aria-hidden="true" class="nav-cart-count nav-cart-0">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="second_nav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1">
+          <div class="loc_div">
+            <div class="location_icon"></div>
+            <span class="acc_txt_1 loc_text">Deliver to</span>
+            <span class="acc_txt_2 loc_text">India</span>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
+          <div class="s_nav_links">
+            <a class="s_links" href="#">Today's Deals</a>
+            <a class="s_links" href="#">Customer Service</a>
+            <a class="s_links" href="#">Gift Cards</a>
+            <a class="s_links" href="#">Registry</a>
+            <a class="s_links" href="#">Sell</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="s_msg_div">
+            <a class="s_msg_link" href="#">Amazon's response to COVID-19</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home_carousel">
+    <div id="myCarousel homeslider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/homeslider/1.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="assets/homeslider/2.jpg" alt="Chicago" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="assets/homeslider/3.jpg" alt="New york" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="assets/homeslider/4.jpg" alt="New york" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="assets/homeslider/5.jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section >
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="a-color-base headline truncate-1line">Shop by Category</h3>
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="image_contain">
+                    <img src="assets/smallproimg/computer.jpg" class="img_p_h_dv" />
+                  </div>
+                  <div class="text_contain"><span>Computers & Accessories</span></div>
+              </div>
+              <div class="col-md-6">
+                <div class="image_contain">
+                  <img src="assets/smallproimg/PS4.jpg" class="img_p_h_dv" />
+                </div>
+                <div class="text_contain"><span>Video Games</span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="image_contain">
+                  <img src="assets/smallproimg/Baby.jpg" class="img_p_h_dv" />
+                </div>
+                <div class="text_contain"><span>Baby</span></div>
+              </div>
+              <div class="col-md-6">
+                <div class="">
+                  <img src="assets/smallproimg/Toys.jpg" class="img_p_h_dv" />
+                </div>
+                <div class="text_contain"><span>Toys & Games</span></div>
+              </div>
+            </div>
+            <div class="shop_now_div">
+              <a href="" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="a-color-base headline truncate-2line">AmazonBasics</h3>
+            <div class="image_contain">
+              <img src="assets/smallproimg/amazonbasics.jpg" class="img_dv" />
+            </div>
+            <div class="shop_now_img">
+              <a href="" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="a-color-base headline truncate-2line">Electronics</h3>
+            <div class="image_contain">
+              <img src="assets/smallproimg/Fuji.jpg" class="img_dv" />
+            </div>
+            <div class="shop_now_img_3">
+              <a href="" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="headline">Sign in for the best experience</h3>
+            <div class="signin_div">
+              <a href="" class="signin_btn">Sign in securely</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="a-color-base headline truncate-1line">Computers & Accessories</h3>
+            <div class="image_contain">
+              <img src="assets/smallproimg/Fuji_pc.jpg" class="img_dv" />
+            </div>
+            <div class="shop_now_img">
+              <a href="" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="a-color-base headline truncate-2line">Beauty picks</h3>
+            <div class="image_contain">
+              <img src="assets/smallproimg/FujiBeauty.jpg" class="img_dv" />
+            </div>
+            <div class="shop_now_img">
+              <a href="" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="a-color-base headline truncate-2line">Get fit at home</h3>
+            <div class="image_contain">
+              <img src="assets/smallproimg/GWDesktop.jpg" class="img_dv" />
+            </div>
+            <div class="shop_now_img">
+              <a href="" >Explore Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d_card">
+            <h3 class="headline">Deals & Promotions</h3>
+            <div class="image_contain">
+              <img src="assets/smallproimg/Dealsdf.jpg" class="img_dv" />
+            </div>
+            <div class="shop_now_img">
+              <a href="" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Discover Amazon</h3></span>
+          <span class="dis_text_1 second_click">Click to learn more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/img/discoverimg1.png" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/img/discoverimg2.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/img/discoverimg3.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/img/discoverimg4.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/img/discoverimg5.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/img/discoverimg6.jpg" />
+                          </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Must have Wireless products</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p1.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p2.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p3.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p4.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p5.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p6.jpg" />
+                          </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Our favorite Toys</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p7.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p8.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p9.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p10.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p11.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p12.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p13.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p14.jpg" />
+                        </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Men's Dress Shirts under $30</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p15.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p16.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p17.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p18.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p19.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p20.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p21.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p22.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p23.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p24.jpg" />
+                        </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Popular Gifts in Baby</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p25.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p26.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p27.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p28.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p29.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p30.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p31.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p32.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p33.jpg" />
+                        </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Gifts in Video Games under $30</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p34.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p35.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p36.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p37.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p38.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p39.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p40.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p41.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p42.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p43.jpg" />
+                        </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Stuffed Animals & Toys under $10</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p44.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p45.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p46.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p47.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p48.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p49.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p50.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p51.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p52.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p53.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p54.jpg" />
+                        </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="container-fluid">
+      <div class="sec_dis_carousel">
+        <div class="discover_title" >
+          <span class="dis_text_1"><h3>Top Beauty & Personal Care products</h3></span>
+          <span class="dis_text_1 second_click">See more</span>
+        </div>
+        <div class="row ">
+          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                  <div class="MultiCarousel-inner">
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p55.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p56.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p57.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p58.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p59.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="pad15">
+                            <img src="assets/productimg/p60.jpg" />
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p61.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p62.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p63.jpg" />
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="pad15">
+                          <img src="assets/productimg/p64.jpg" />
+                        </div>
+                      </div>
+                  </div>
+                  <button class="btn btn-discover-carousel leftLst"><</button>
+                  <button class="btn btn-discover-carousel rightLst">></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="center_div">
+      <p class="gift_text_botm" >Gift ideas inspired by your shopping history</p> 
+      <a class="signinbtn" href="">Sign in to see personalized recommendations</a>
+    </div>
+  </section>
+
+  <section class="section_container">
+    <div class="center_div_back_top">
+      <p class="back-to-top" >Back to top</p> 
+    </div>
+  </section>
+
+  <section class="first-footer-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p class="footer-clm-heading">Get to Know Us</p>
+          <ul class="footer-ul">
+            <li class="footer-li"><a class="footer-link" href="#">Careers</a></li>
+            <li class="footer-li"><a class="footer-link" href="#">Blog</a></li>
+            <li class="footer-li"><a class="footer-link" href="#">About Amazon</a></li>
+            <li class="footer-li"><a class="footer-link" href="#">Investor Relations</a></li>
+            <li class="footer-li"><a class="footer-link" href="#">Amazon Devices</a></li>
+            <li class="footer-li"><a class="footer-link" href="#">Amazon Tours</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p class="footer-clm-heading">Make Money with Us</p>
+          <ul class="footer-ul">
+          <li class="footer-li"><a class="footer-link" href="#">Sell products on Amazon</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Sell apps on Amazon</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Become an Affiliate</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Advertise Your Products</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Self-Publish with Us</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Host an Amazon Hub</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">See More Make Money with Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p class="footer-clm-heading">Amazon Payment Products</p>
+          <ul class="footer-ul">
+          <li class="footer-li"><a class="footer-link" href="#">Amazon Business Card</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Shop with Points</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Reload Your Balance</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Amazon Currency Converter</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p class="footer-clm-heading">Let Us Help You</p>
+          <ul class="footer-ul">
+          <li class="footer-li"><a class="footer-link" href="#">Amazon and COVID-19</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Your Account</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Your Orders</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Shipping Rates & Policies</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Returns & Replacements</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Manage Your Content and Devices</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Amazon Assistant</a></li>
+          <li class="footer-li"><a class="footer-link" href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-line"></div>
+    <div class="container footer-after-clm">
+      <div class="row">
+        <div class="col-md-5 footer-lg-img"><img src="assets/img/image20.png" alt="emart"></div>
+        <div class="col-md-7 footer-strip-2" >
+          <div class="footer-globe-img"></div><a href="" class="footer-strip-a-1"> English</a>
+          <a href="" class="footer-strip-a-2"><div >$ USD - U.S. Dollar</div></a>
+          <a href="" class="footer-strip-a-3"><span class="footer-flag-img"></span>&nbsp; United States</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="second-footer-sec">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Amazon Music</span><br>
+                  <span class="sec-title-foo">Stream millions <br> of songs</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Alexa</span><br>
+                  <span class="sec-title-foo">Actionable Analytics <br> for the Web</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Amazon Rapids</span><br>
+                  <span class="sec-title-foo">Fun stories for <br> kids on the go</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">CreateSpace</span><br>
+                  <span class="sec-title-foo">Indie Print Publishing <br> Made Easy</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">IMDbPro</span><br>
+                  <span class="sec-title-foo">Get Info Entertainment <br> Professionals Need</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Ring</span><br>
+                  <span class="sec-title-foo">Smart Home <br> Security Systems</span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="col-md-2">
+
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Amazon Advertising</span><br>
+                  <span class="sec-title-foo">Find, attract, and <br>  engage customers</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Sell on Amazon</span><br>
+                  <span class="sec-title-foo">Start a Selling <br> Account</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Amazon Web Services</span><br>
+                  <span class="sec-title-foo">Scalable Cloud <br> Computing Services</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">DPReview</span><br>
+                  <span class="sec-title-foo">Digital <br> Photography</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Kindle Direct Publishing</span><br>
+                  <span class="sec-title-foo">Indie Digital Publishing <br> Made Easy</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">eero WiFi</span><br>
+                  <span class="sec-title-foo">Stream 4K Video<br> in Every Room</span>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-md-2">
+
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Amazon Drive</span><br>
+                  <span class="sec-title-foo">Cloud storage <br> from Amazon</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Amazon Business</span><br>
+                  <span class="sec-title-foo">Everything For<br> Your Business</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Audible</span><br>
+                  <span class="sec-title-foo">Listen to Books & Original<br>  Audio Performances</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">East Dane</span><br>
+                  <span class="sec-title-foo">Designer Men's<br> Fashion</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Prime Video Direct</span><br>
+                  <span class="sec-title-foo">Video Distribution<br> Made Easy</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Neighbors App </span><br>
+                  <span class="sec-title-foo">Real-Time Crime<br> & Safety Alerts</span>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-md-2">
+
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">6pm</span><br>
+                  <span class="sec-title-foo">Score deals<br> on fashion brands</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">AmazonGlobal</span><br>
+                  <span class="sec-title-foo">Ship Orders<br> Internationally</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Book Depository</span><br>
+                  <span class="sec-title-foo">Books With Free<br> Delivery Worldwide</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Fabric</span><br>
+                  <span class="sec-title-foo">Sewing, Quilting<br> & Knitting</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Shopbop</span><br>
+                  <span class="sec-title-foo">Designer<br> Fashion Brands</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Amazon Subscription Boxes</span><br>
+                  <span class="sec-title-foo">Top subscription boxes – right to your door</span>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-md-2">
+
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">AbeBooks</span><br>
+                  <span class="sec-title-foo">Books, art<br> & collectibles</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Home Services</span><br>
+                  <span class="sec-title-foo">Experienced Pros<br> Happiness Guarantee</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Box Office Mojo</span><br>
+                  <span class="sec-title-foo">Find Movie<br> Box Office Data</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Goodreads</span><br>
+                  <span class="sec-title-foo">Book reviews<br> & recommendations</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Woot!</span><br>
+                  <span class="sec-title-foo">Deals and <br> Shenanigans</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">PillPack</span><br>
+                  <span class="sec-title-foo">Pharmacy Simplified</span>
+                </a>
+              </div>
+              
+            </div>
+            <div class="col-md-2">
+
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">ACX </span><br>
+                  <span class="sec-title-foo">Audiobook Publishing<br> Made Easy</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link">
+                  <span class="fir-title-foo">Amazon Ignite</span><br>
+                  <span class="sec-title-foo">Sell your original<br> Digital Educational</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">ComiXology</span><br>
+                  <span class="sec-title-foo">Thousands of<br> Digital Comics</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">IMDb</span><br>
+                  <span class="sec-title-foo">Movies, TV<br> & Celebrities</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Zappos</span><br>
+                  <span class="sec-title-foo">Shoes &<br> Clothing</span>
+                </a>
+              </div>
+              <div class="footer-sec-clm-heading">
+                <a href="" class="seco-foo-link" >
+                  <span class="fir-title-foo">Amazon Second Chance</span><br>
+                  <span class="sec-title-foo">Pass it on, trade it in,<br> give it a second life</span>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+  </section>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
